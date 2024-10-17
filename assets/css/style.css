@@ -1,0 +1,110 @@
+@import url("./reset.css");
+
+@font-face {
+    font-family: Raleway;
+    src: url('/assets/fonts/Raleway-VariableFont_wght.ttf');    
+}
+@font-face {
+    font-family: Raleway;
+    src: url('/assets/fonts/static/Raleway-Black.ttf');
+    font-weight: bold;
+}
+
+body{
+    font-family: Raleway;
+    background: black;
+}
+
+.banner {    
+    text-align: center;    
+    background-image: linear-gradient(rgba(0,0,0, 0.8)5%,rgba(7, 116, 163, 0.20)50%, rgba(0,0,0,0.8)100%), url(/assets/images/banner.png);
+    
+}
+
+.banner-content{    
+    width: 450px;
+    height: 540px;
+    margin: 0 auto;
+    padding: 10px 0;    
+}
+.logo{
+    padding: inherit;
+}
+
+.banner-content h1{
+    /* border: 2px solid green; */
+    text-transform: uppercase;
+    padding: inherit;
+    font-weight: 900;    
+    font-size: 40px;
+    line-height: 46px;    
+    
+    background: linear-gradient(180deg, #33A8DB 0%, #0f5c97 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.banner-content p{
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+    padding: inherit;
+    color: white;
+}
+.banner-content button{
+    border: 2px solid #0f5c97;
+    background-color: transparent;
+    margin-top: 15px;
+    padding: 10px 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    color: #3d8bc7;
+}
+
+main{
+    
+}
+#course-content{
+    width: 792px;
+    height: 325px;
+    margin: 0 auto;
+    text-align: center;    
+    color: white;
+}
+#course-content h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(51, 168, 219);
+    line-height: 38px;
+    margin: 15px 0;
+}
+#course-content p{
+    font-size: 16px;
+    font-weight: 400;    
+    line-height: 25px;
+    margin: 15px 0;
+}
+.modules-list{
+
+}
+
+.module{
+    border: 2px solid rgb(23, 65, 83);
+    background: #252525;
+    border-radius: 57px;
+    width: 500px;
+    padding: 15px 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    text-indent: 50px;
+}
+.module span{            
+    color: #6bb4d6;    
+}
+
+#transform-world{
+    background: url(/assets/images/woman-code.png);
+    width: 1140px;
+    height: 363px;
+}
